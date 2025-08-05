@@ -33,9 +33,9 @@ pipeline {
         stage('Deploy to AWS Elastic Beanstalk') {
             steps {
                 withCredentials([
-                    [$class: 'AmazonWebServicesCredentialsBinding', 
-                     credentialsId: 'subhangi-aws-creds',  // <--- change this to match your actual Jenkins credentials ID
-                     accessKeyVariable: 'AWS_ACCESS_KEY_ID', 
+                    [$class: 'AmazonWebServicesCredentialsBinding',
+                     credentialsId: 'subhangi-aws-creds',  // Replace with your Jenkins credentials ID
+                     accessKeyVariable: 'AWS_ACCESS_KEY_ID',
                      secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']
                 ]) {
                     sh "aws s3 cp $SOURCE_BUNDLE_NAME s3://$S3_BUCKET/$SOURCE_BUNDLE_NAME"
@@ -43,6 +43,6 @@ pipeline {
                     sh "aws elasticbeanstalk update-environment --application-name $APPLICATION_NAME --environment-name $ENVIRONMENT_NAME --version-label $BUILD_NUMBER"
                 }
             }
-        }
-    }
+        }
+    }
 }
