@@ -20,7 +20,8 @@ pipeline {
         stage('Install Dependencies & Test') {
             steps {
                 sh 'npm install'
-                sh 'npm test'
+                sh 'chmod +x ./node_modules/.bin/mocha' // fix mocha permission
+                sh 'npm test' // OR use: sh './node_modules/.bin/mocha'
             }
         }
 
@@ -34,7 +35,7 @@ pipeline {
             steps {
                 withCredentials([
                     [$class: 'AmazonWebServicesCredentialsBinding',
-                     credentialsId: 'subhangi-aws-creds',  // Replace with your Jenkins credentials ID
+                     credentialsId: 'subhangi-aws-creds',
                      accessKeyVariable: 'AWS_ACCESS_KEY_ID',
                      secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']
                 ]) {
