@@ -25,5 +25,5 @@ This project was done to demonstrates automated CI/CD for a Node.js application 
 
 ## 💻 How to Run
 
-# 🙇‍♂️🙇‍♂️ Sorry, the I have closed the instances to avoid AWS cost  
+# 🙇‍♂️🙇‍♂️ Sorry, I have closed the instances to avoid AWS cost  
 Therefore, the application is inaccessible right now.
