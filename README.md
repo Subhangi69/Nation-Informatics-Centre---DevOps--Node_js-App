@@ -18,8 +18,8 @@ This project was done to demonstrates automated CI/CD for a Node.js application 
 8. **Now Jenkins agent can securely and programmatically talk to AWS**  
 9. **Job creation in Jenkins via Pipeline**  
 10. **GitHub project link attached**  
-11. **Build Now**  
-12. **Visit Elastic Beanstalk environment to reach the website**
+11. **Build Now click lets trigger jenkis pipeline , pull latest code and run each stages**  
+12. **Visit Elastic Beanstalk environment and open the provided url to reach the website**
 
 ---
 
