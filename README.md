@@ -15,7 +15,7 @@ This project was done to demonstrates Continuous Integration (CI) pipeline using
    - Installed node and zip in my ec2 machine
 6. **Created and configured Elastic Beanstalk application in aws for deploying my nodejs application.**
 7. **Setup Jenkins with plugins**  
-   - Then setup Credentials with access key of an IAM, in **Jenkins → Credentials** 
+   - Then setup Credentials with access key and secret access key of an IAM, in **Jenkins → Credentials** 
    -(Now Jenkins agent can securely and programmatically talk to AWS) 
 8. **Job creation in Jenkins via Pipeline option**  
 9. **GitHub project link attached**  
