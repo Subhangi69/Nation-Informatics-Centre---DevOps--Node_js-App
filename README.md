@@ -1,4 +1,5 @@
 # 📦 Node.js CI/CD Deployment with Jenkins & AWS
+   ## (NIC Internship)
 
 This project was done to demonstrates automated CI/CD for a Node.js application using Git, Jenkins, and AWS Elastic Beanstalk.
 
