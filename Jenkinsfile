@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/Subhangi69/Nation-Informatics-Centre---DevOps--Node_js-App'
+                    url: 'https://github.com/Subhangi69/National-Informatics-Centre---DevOps'
             }
         }
 
