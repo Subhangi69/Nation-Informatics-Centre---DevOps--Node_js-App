@@ -14,10 +14,10 @@ This project was done to demonstrates automated CI/CD for a Node.js application 
 5. **Instance security groups and edited inbound rules**  
    - Added port **8080** with custom IP range to access Jenkins from browser
    - Install node and zip in our ec2 machine
-6. **Create and configure Elastic Beanstalk application in aws for deploy our nodejs application.
+6. **Create and configure Elastic Beanstalk application in aws for deploy our nodejs application.**
 7. **Setup Jenkins with plugins**  
    - Then setup Credentials of access key of an IAM in **Jenkins → Credentials** 
-  **(Now Jenkins agent can securely and programmatically talk to AWS)**  
+   -(Now Jenkins agent can securely and programmatically talk to AWS) 
 8. **Job creation in Jenkins via Pipeline**  
 9. **GitHub project link attached**  
 10. **Build Now click lets trigger jenkis pipeline , pull latest code and run each stages**  
