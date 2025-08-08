@@ -7,21 +7,21 @@ This project was done to demonstrates automated CI/CD for a Node.js application 
 
 ## 🏢 Workflow
 
-1. **AWS Account**  
+1. **AWS Account creation**  
 2. **EC2 started and connect**  
 3. **Java installed on EC2**  
 4. **Jenkins installed**  
-5. **Instance security groups and edited inbound rules**  
+5. **Went to Instance security groups and edited inbound rules**  
    - Added port **8080** with custom IP range to access Jenkins from browser
-   - Install node and zip in our ec2 machine
-6. **Create and configure Elastic Beanstalk application in aws for deploy our nodejs application.**
+   - Installed node and zip in my ec2 machine
+6. **Created and configured Elastic Beanstalk application in aws for deploying my nodejs application.**
 7. **Setup Jenkins with plugins**  
-   - Then setup Credentials of access key of an IAM in **Jenkins → Credentials** 
+   - Then setup Credentials with access key of an IAM, in **Jenkins → Credentials** 
    -(Now Jenkins agent can securely and programmatically talk to AWS) 
-8. **Job creation in Jenkins via Pipeline**  
+8. **Job creation in Jenkins via Pipeline option**  
 9. **GitHub project link attached**  
-10. **Build Now click lets trigger jenkis pipeline , pull latest code and run each stages**  
-11. **Visit Elastic Beanstalk environment and open the provided url to reach the website**
+10. **Clicking on Build Now lets triggered Jenkins pipeline pull latest code and run each stages**  
+11. **Visited Elastic Beanstalk environment and opened the provided url to reach the website i.e our App**
 
 ---
 
