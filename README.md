@@ -27,4 +27,4 @@ This project was done to demonstrates Continuous Integration (CI) pipeline using
 ## 💻 How to Run
 
 # 🙇‍♂️🙇‍♂️ Sorry, I have closed the instances to avoid AWS cost  
-Therefore, the application is inaccessible right now.
+Therefore, the application is inaccessible right now. Although you can go through my git files suitable to be deployed via Jenkins
