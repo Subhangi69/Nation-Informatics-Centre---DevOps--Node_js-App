@@ -20,7 +20,7 @@ This project was done to demonstrates Continuous Integration (CI) pipeline using
 8. **Job creation in Jenkins via Pipeline option**  
 9. **GitHub project link attached**  
 10. **Clicking on Build Now lets triggered Jenkins pipeline pull latest code and run each stages**  
-11. **Visited Elastic Beanstalk environment and opened the provided url to reach the website i.e our App**
+11. **Visited Elastic Beanstalk environment and opened the provided url to reach the website (i.e my App)**
 
 ---
 
